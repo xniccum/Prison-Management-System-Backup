@@ -44,6 +44,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CellEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CellEditor.Designer.cs">
+      <DependentUpon>CellEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GuardEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GuardEditor.Designer.cs">
+      <DependentUpon>GuardEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JobEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JobEditor.Designer.cs">
+      <DependentUpon>JobEditor.cs</DependentUpon>
+    </Compile>
     <Compile Include="Main_Form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,14 +94,17 @@
       <DependentUpon>ScheduleEditor.cs</DependentUpon>
     </Compile>
     <Compile Include="SQLhandler.cs" />
-    <Compile Include="UserEditor.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="UserEditor.Designer.cs">
-      <DependentUpon>UserEditor.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="Add_Data_Form.resx">
       <DependentUpon>Add_Data_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CellEditor.resx">
+      <DependentUpon>CellEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GuardEditor.resx">
+      <DependentUpon>GuardEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JobEditor.resx">
+      <DependentUpon>JobEditor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main_Form.resx">
       <DependentUpon>Main_Form.cs</DependentUpon>
@@ -102,9 +123,6 @@
     </Compile>
     <EmbeddedResource Include="ScheduleEditor.resx">
       <DependentUpon>ScheduleEditor.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserEditor.resx">
-      <DependentUpon>UserEditor.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="PMSDataSet.xsc">
       <DependentUpon>PMSDataSet.xsd</DependentUpon>

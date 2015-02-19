@@ -23,6 +23,7 @@ namespace PMSTest
             setAllPanesInvisible();
             currentPanel = prisoner_IUpanel;
             this.Size = new Size(800, 500);
+            
         }
         private void fillComboBoxes()
         {
@@ -36,6 +37,7 @@ namespace PMSTest
         {
             prisoner_dprisoner_panel.Visible = false;
             prisoner_IUpanel.Visible = false;
+
         }
         private void focusPanel(Panel desired)
         {
@@ -69,6 +71,8 @@ namespace PMSTest
             prisoner_iu_label.Text = "Add prisoner";
             prisonerID_insert_label.Visible = false;
             prisonerID_iu_textbox.Visible = false;
+
+
         }
         private void setup_prisoner_update()
         {
@@ -163,11 +167,6 @@ namespace PMSTest
          
         }
         private void prisoner_update()
-        {
-
-        }
-
-        private void PrisonerEditor_Load(object sender, EventArgs e)
         {
 
         }

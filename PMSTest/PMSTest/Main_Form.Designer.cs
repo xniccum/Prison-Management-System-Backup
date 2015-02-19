@@ -41,7 +41,6 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.scheduleButton = new System.Windows.Forms.Button();
             this.prisonerButton = new System.Windows.Forms.Button();
-            this.userButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -49,10 +48,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(23, 66);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button1.Location = new System.Drawing.Point(26, 83);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(76, 48);
+            this.button1.Size = new System.Drawing.Size(86, 60);
             this.button1.TabIndex = 3;
             this.button1.Text = "Login";
             this.button1.UseVisualStyleBackColor = true;
@@ -60,19 +58,18 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(117, 42);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBox2.Location = new System.Drawing.Point(132, 52);
             this.textBox2.Name = "textBox2";
             this.textBox2.PasswordChar = '*';
-            this.textBox2.Size = new System.Drawing.Size(89, 22);
+            this.textBox2.Size = new System.Drawing.Size(100, 26);
             this.textBox2.TabIndex = 2;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(20, 42);
+            this.label2.Location = new System.Drawing.Point(22, 52);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(69, 17);
+            this.label2.Size = new System.Drawing.Size(78, 20);
             this.label2.TabIndex = 5;
             this.label2.Text = "Password";
             // 
@@ -81,11 +78,10 @@
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(24, 135);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dataGridView1.Location = new System.Drawing.Point(27, 169);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(667, 242);
+            this.dataGridView1.Size = new System.Drawing.Size(750, 303);
             this.dataGridView1.TabIndex = 6;
             // 
             // panel1
@@ -96,18 +92,16 @@
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.textBox2);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Location = new System.Drawing.Point(24, 10);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel1.Location = new System.Drawing.Point(27, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(227, 122);
+            this.panel1.Size = new System.Drawing.Size(255, 152);
             this.panel1.TabIndex = 7;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(117, 66);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button2.Location = new System.Drawing.Point(132, 83);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(89, 48);
+            this.button2.Size = new System.Drawing.Size(100, 60);
             this.button2.TabIndex = 4;
             this.button2.Text = "Logout";
             this.button2.UseVisualStyleBackColor = true;
@@ -115,19 +109,18 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(117, 12);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBox1.Location = new System.Drawing.Point(132, 15);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(89, 22);
+            this.textBox1.Size = new System.Drawing.Size(100, 26);
             this.textBox1.TabIndex = 1;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(23, 14);
+            this.label1.Location = new System.Drawing.Point(26, 17);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(73, 17);
+            this.label1.Size = new System.Drawing.Size(83, 20);
             this.label1.TabIndex = 6;
             this.label1.Text = "Username";
             // 
@@ -135,18 +128,16 @@
             // 
             this.panel2.Controls.Add(this.button6);
             this.panel2.Controls.Add(this.comboBox1);
-            this.panel2.Location = new System.Drawing.Point(276, 10);
-            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel2.Location = new System.Drawing.Point(310, 12);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(414, 122);
+            this.panel2.Size = new System.Drawing.Size(466, 152);
             this.panel2.TabIndex = 8;
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(313, 14);
-            this.button6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button6.Location = new System.Drawing.Point(352, 17);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(91, 25);
+            this.button6.Size = new System.Drawing.Size(102, 31);
             this.button6.TabIndex = 12;
             this.button6.Text = "Go!";
             this.button6.UseVisualStyleBackColor = true;
@@ -156,19 +147,18 @@
             // 
             this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(19, 14);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBox1.Location = new System.Drawing.Point(21, 17);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(273, 24);
+            this.comboBox1.Size = new System.Drawing.Size(307, 28);
             this.comboBox1.TabIndex = 11;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // scheduleButton
             // 
-            this.scheduleButton.Location = new System.Drawing.Point(716, 18);
-            this.scheduleButton.Margin = new System.Windows.Forms.Padding(4);
+            this.scheduleButton.Location = new System.Drawing.Point(806, 22);
+            this.scheduleButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.scheduleButton.Name = "scheduleButton";
-            this.scheduleButton.Size = new System.Drawing.Size(163, 28);
+            this.scheduleButton.Size = new System.Drawing.Size(183, 35);
             this.scheduleButton.TabIndex = 9;
             this.scheduleButton.Text = "Schedule Manager";
             this.scheduleButton.UseVisualStyleBackColor = true;
@@ -176,38 +166,25 @@
             // 
             // prisonerButton
             // 
-            this.prisonerButton.Location = new System.Drawing.Point(716, 54);
-            this.prisonerButton.Margin = new System.Windows.Forms.Padding(4);
+            this.prisonerButton.Location = new System.Drawing.Point(806, 78);
+            this.prisonerButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.prisonerButton.Name = "prisonerButton";
-            this.prisonerButton.Size = new System.Drawing.Size(163, 28);
+            this.prisonerButton.Size = new System.Drawing.Size(183, 35);
             this.prisonerButton.TabIndex = 10;
             this.prisonerButton.Text = "Prisoner Manager";
             this.prisonerButton.UseVisualStyleBackColor = true;
             this.prisonerButton.Click += new System.EventHandler(this.prisonerButton_Click);
             // 
-            // userButton
-            // 
-            this.userButton.Location = new System.Drawing.Point(716, 90);
-            this.userButton.Margin = new System.Windows.Forms.Padding(4);
-            this.userButton.Name = "userButton";
-            this.userButton.Size = new System.Drawing.Size(163, 28);
-            this.userButton.TabIndex = 11;
-            this.userButton.Text = "User Manager";
-            this.userButton.UseVisualStyleBackColor = true;
-            this.userButton.Click += new System.EventHandler(this.button3_Click_1);
-            // 
             // Main_Form
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(894, 389);
-            this.Controls.Add(this.userButton);
+            this.ClientSize = new System.Drawing.Size(1006, 486);
             this.Controls.Add(this.prisonerButton);
             this.Controls.Add(this.scheduleButton);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.dataGridView1);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Main_Form";
             this.Text = "Prison Management System";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -234,7 +211,6 @@
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button scheduleButton;
         private System.Windows.Forms.Button prisonerButton;
-        private System.Windows.Forms.Button userButton;
 
     }
 }
